@@ -3,4 +3,4 @@ machine:
     version: 7.3
 test:
   override:
-    - fastlane test
+    - bundle exec fastlane test
