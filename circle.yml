@@ -1,3 +1,5 @@
 test:
+  pre:
+    - sudo gem update fastlane
   override:
     - fastlane test
