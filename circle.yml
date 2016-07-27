@@ -1,5 +1,6 @@
+machine:
+  xcode:
+    version: 7.3
 test:
-  pre:
-    - sudo gem update fastlane
   override:
     - fastlane test
